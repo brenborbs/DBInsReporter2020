@@ -9,6 +9,11 @@ const reportSchema = new mongoose.Schema(
       required: true,
       maxLength: 32
     },
+    dateIns: {
+      type: String,
+      required: true,
+      maxLength: 32
+    },
     project: {
       type: String,
       trim: true,
